@@ -1,0 +1,9 @@
+codigo_centro,nombre_centro,codigo_distrito,codigo_municipio,sector,nivel,zona,direccion,latitud,longitud,telefono,email,director
+CE-15-02-001,Escuela República de Colombia,DIST-15-02,MUN-3203,Público,Inicial-Primario-Secundario,Urbana,Calle Principal #45 Los Alcarrizos,18.5186,-69.9741,809-555-1234,repcolombia@minerd.gob.do,María García Pérez
+CE-15-02-002,Liceo Vespertino Gregorio Luperón,DIST-15-02,MUN-3203,Público,Secundario,Urbana,Av. Independencia #123,18.5234,-69.9688,809-555-2345,luperon@minerd.gob.do,Carlos Martínez Santos
+CE-15-01-003,Centro Educativo Salomé Ureña,DIST-15-01,MUN-3201,Público,Inicial-Primario,Urbana,Calle Duarte #89 Los Mina,18.4756,-69.8534,809-555-3456,salome@minerd.gob.do,Ana Rodríguez López
+CE-10-01-004,Escuela Básica Juan Pablo Duarte,DIST-10-01,MUN-3202,Público,Primario-Secundario,Urbana,Calle Sánchez #56 Villa Mella,18.5123,-69.8892,809-555-4567,jpduarte@minerd.gob.do,Luis Fernández Gómez
+CE-04-01-005,Liceo Manuel de Jesús Troncoso,DIST-04-01,MUN-0101,Público,Secundario,Urbana,Av. Máximo Gómez #234,18.4678,-69.9312,809-555-5678,troncoso@minerd.gob.do,Rosa Jiménez Castro
+CE-01-01-006,Escuela Rural Los Pinos,DIST-01-01,MUN-0401,Público,Primario,Rural,Paraje Los Pinos s/n,18.2045,-71.1234,809-555-6789,lospinos@minerd.gob.do,Pedro Núñez Díaz
+CE-03-01-007,Centro Educativo Eugenio María de Hostos,DIST-03-01,MUN-0201,Público,Inicial-Primario-Secundario,Urbana,Calle 19 de Marzo #67,18.4523,-70.7312,809-555-7890,hostos@minerd.gob.do,Carmen Pérez Mora
+CE-15-03-008,Colegio Santa Teresa (Privado),DIST-15-03,MUN-3203,Privado,Inicial-Primario-Secundario,Urbana,Calle Las Mercedes #12,18.5290,-69.9812,809-555-8901,info@santateresa.edu.do,Mercedes Sánchez Vega

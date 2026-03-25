@@ -1,0 +1,23 @@
+# Directorios de compilación de .NET
+**bin/
+**obj/
+
+# Archivos de configuración de IDEs
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Control de versiones
+.git/
+.gitignore
+
+# Archivos de registro y temporales
+*.log
+.dockerignore
+Dockerfile
+compose.yaml
+docker-compose.yml
+
+# Directorio de datos locales (evitar subir el volumen al contexto)
+CSV/

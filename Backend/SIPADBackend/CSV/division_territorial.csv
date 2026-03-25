@@ -1,0 +1,29 @@
+tipo_division,codigo,nombre,codigo_padre,region_geografica,poblacion_estimada,area_km2
+Provincia,PRO-01,Distrito Nacional,,Ozama,1029110,104.44
+Provincia,PRO-32,Santo Domingo,,Ozama,2908607,1401.50
+Provincia,PRO-02,Azua,,Valdesia,214311,2682.56
+Provincia,PRO-03,Baoruco,,Enriquillo,97313,1282.23
+Provincia,PRO-04,Barahona,,Enriquillo,187105,1739.38
+Municipio,MUN-0101,Santo Domingo de Guzmán,PRO-01,,965040,104.44
+Municipio,MUN-3201,Santo Domingo Este,PRO-32,,1036871,154.02
+Municipio,MUN-3202,Santo Domingo Norte,PRO-32,,731084,442.00
+Municipio,MUN-3203,Santo Domingo Oeste,PRO-32,,1010450,398.76
+Municipio,MUN-0201,Azua de Compostela,PRO-02,,91347,484.82
+Municipio,MUN-0301,Neiba,PRO-03,,51209,318.56
+Municipio,MUN-0401,Barahona,PRO-04,,85057,165.15
+Regional,REG-01,Regional 01 Barahona,,,,
+Regional,REG-02,Regional 02 San Juan,,,,
+Regional,REG-03,Regional 03 Azua,,,,
+Regional,REG-04,Regional 04 San Cristóbal,,,,
+Regional,REG-10,Regional 10 Santo Domingo II,,,,
+Regional,REG-15,Regional 15 Santo Domingo III,,,,
+Distrito,DIST-01-01,Distrito Educativo 01-01,REG-01,,,
+Distrito,DIST-01-02,Distrito Educativo 01-02,REG-01,,,
+Distrito,DIST-02-01,Distrito Educativo 02-01,REG-02,,,
+Distrito,DIST-03-01,Distrito Educativo 03-01,REG-03,,,
+Distrito,DIST-04-01,Distrito Educativo 04-01,REG-04,,,
+Distrito,DIST-10-01,Distrito Educativo 10-01,REG-10,,,
+Distrito,DIST-10-02,Distrito Educativo 10-02,REG-10,,,
+Distrito,DIST-15-01,Distrito Educativo 15-01,REG-15,,,
+Distrito,DIST-15-02,Distrito Educativo 15-02,REG-15,,,
+Distrito,DIST-15-03,Distrito Educativo 15-03,REG-15,,,

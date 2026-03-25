@@ -1,0 +1,14 @@
+codigo_centro,anio_escolar,nivel_educativo,total_estudiantes,estudiantes_aprobados,estudiantes_reprobados,estudiantes_retirados,estudiantes_sobreedad,promedio_calificaciones,promedio_asistencia
+CE-15-02-001,2023-2024,Secundario,450,380,45,25,67,78.50,85.30
+CE-15-02-001,2023-2024,Primario,520,498,12,10,34,82.30,91.20
+CE-15-02-002,2023-2024,Secundario,320,285,20,15,42,82.30,88.50
+CE-15-01-003,2023-2024,Primario,380,365,8,7,28,85.60,93.40
+CE-15-01-003,2023-2024,Inicial,120,120,0,0,5,90.20,95.80
+CE-10-01-004,2023-2024,Secundario,290,245,28,17,51,76.40,82.10
+CE-10-01-004,2023-2024,Primario,410,388,15,7,39,80.70,89.30
+CE-04-01-005,2023-2024,Secundario,540,475,38,27,48,81.20,87.60
+CE-01-01-006,2023-2024,Primario,145,132,8,5,23,75.30,78.90
+CE-03-01-007,2023-2024,Secundario,280,238,26,16,44,77.80,83.40
+CE-03-01-007,2023-2024,Primario,340,325,10,5,31,83.50,90.20
+CE-15-03-008,2023-2024,Secundario,180,172,5,3,8,88.90,96.50
+CE-15-03-008,2023-2024,Primario,220,218,2,0,4,91.20,98.10

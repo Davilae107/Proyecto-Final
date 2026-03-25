@@ -1,0 +1,8 @@
+codigo_municipio,anio,cobertura_agua_potable,cobertura_energia_electrica,cobertura_alcantarillado,cobertura_recogida_basura,acceso_internet_hogar,acceso_telefonia_movil,centros_salud_por_1000,camas_hospital_por_1000,calidad_carreteras
+MUN-0101,2024,92.5,98.3,78.5,95.2,58.4,99.1,1.85,3.2,Excelente
+MUN-3201,2024,85.3,95.7,45.2,82.6,42.3,97.8,1.12,1.8,Buena
+MUN-3202,2024,78.9,92.4,35.8,71.4,34.7,96.5,0.85,1.2,Regular
+MUN-3203,2024,82.1,94.1,38.9,75.8,37.2,97.2,0.92,1.4,Regular
+MUN-0201,2024,68.4,88.7,25.3,58.9,22.5,94.3,0.68,0.9,Mala
+MUN-0301,2024,62.7,85.2,18.9,52.4,18.3,92.8,0.52,0.7,Mala
+MUN-0401,2024,71.8,90.3,28.7,63.2,25.8,95.1,0.74,1.1,Regular

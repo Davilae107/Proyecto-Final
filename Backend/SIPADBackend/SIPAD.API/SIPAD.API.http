@@ -1,0 +1,6 @@
+@SIPAD.API_HostAddress = http://localhost:5186
+
+GET {{SIPAD.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

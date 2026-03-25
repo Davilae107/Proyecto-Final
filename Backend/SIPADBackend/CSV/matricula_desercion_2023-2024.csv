@@ -1,0 +1,9 @@
+codigo_centro,anio_escolar,nivel_educativo,grado,matricula_inicial,matricula_final,abandonos_temporales,abandonos_definitivos,causante_principal,mes_mayor_desercion
+CE-15-02-001,2023-2024,Secundario,4to de Media,500,450,15,35,Embarazo Juvenil,Marzo
+CE-15-02-002,2023-2024,Secundario,3ro de Media,350,320,8,22,Precariedad Económica,Febrero
+CE-15-01-003,2023-2024,Primario,6to Grado,400,390,5,5,Bajo Rendimiento Académico,Mayo
+CE-10-01-004,2023-2024,Secundario,4to de Media,310,290,7,13,Embarazo Juvenil,Abril
+CE-04-01-005,2023-2024,Secundario,3ro de Media,570,540,12,18,Precariedad Económica,Marzo
+CE-01-01-006,2023-2024,Primario,5to Grado,150,145,3,2,Inequidad Educativa,Junio
+CE-03-01-007,2023-2024,Secundario,4to de Media,295,280,6,9,Delincuencia,Abril
+CE-15-03-008,2023-2024,Secundario,4to de Media,185,180,2,3,Bajo Rendimiento Académico,Mayo

@@ -1,0 +1,8 @@
+codigo_municipio,anio,casos_violencia_intrafamiliar,casos_abuso_menores,delitos_cometidos_menores,homicidios_menores,casos_drogas_menores,pandillas_activas,menores_institucionalizados,poblacion_menor_18
+MUN-0101,2024,234,67,89,3,45,12,156,285000
+MUN-3201,2024,312,89,124,5,67,18,234,342000
+MUN-3202,2024,398,112,167,8,89,24,298,267000
+MUN-3203,2024,367,98,145,6,78,21,276,298000
+MUN-0201,2024,145,45,67,4,34,8,98,32000
+MUN-0301,2024,98,28,42,2,23,5,67,18000
+MUN-0401,2024,167,52,78,3,38,9,112,29000

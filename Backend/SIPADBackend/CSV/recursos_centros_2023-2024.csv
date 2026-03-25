@@ -1,0 +1,9 @@
+codigo_centro,anio_escolar,total_docentes,docentes_titulados,total_aulas,aulas_buen_estado,tiene_biblioteca,tiene_laboratorio,tiene_cancha_deportiva,computadoras_disponibles,acceso_internet,programa_alimentacion,programa_transporte,estado_infraestructura
+CE-15-02-001,2023-2024,28,25,18,15,Sí,No,Sí,12,Sí,Sí,No,Bueno
+CE-15-02-002,2023-2024,22,20,14,12,Sí,Sí,No,8,Sí,Sí,No,Regular
+CE-15-01-003,2023-2024,32,30,20,18,Sí,Sí,Sí,15,Sí,Sí,Sí,Bueno
+CE-10-01-004,2023-2024,25,22,16,13,No,No,Sí,6,No,Sí,No,Regular
+CE-04-01-005,2023-2024,35,32,22,20,Sí,Sí,Sí,18,Sí,Sí,No,Excelente
+CE-01-01-006,2023-2024,8,6,6,4,No,No,No,2,No,Sí,No,Malo
+CE-03-01-007,2023-2024,20,18,12,10,Sí,No,Sí,10,Sí,Sí,No,Bueno
+CE-15-03-008,2023-2024,24,24,15,15,Sí,Sí,Sí,25,Sí,No,Sí,Excelente

@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36930.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "consoleAPP", "consoleAPP\consoleAPP.csproj", "{48FC5AD3-C6EE-4F86-951C-312E123D3213}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIPAD.API", "SIPAD.API\SIPAD.API.csproj", "{CB51A8AA-0C58-466A-8FF9-BDA95B04E0DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{6C54B910-07F8-4E37-A13F-FB10AE75D8CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIPAD.Domain", "SIPAD.Domain\SIPAD.Domain.csproj", "{1741B63E-9AB4-4327-99A0-0FA1BAD3CC68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIPAD.Infrastructure", "SIPAD.Infrastructure\SIPAD.Infrastructure.csproj", "{CAE63E9C-CB72-4AF4-9509-5C60111B8AF8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructure", "Infraestructure", "{D81821B6-8407-4DB6-A376-E245EC1041EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIPAD.Application", "SIPAD.Application\SIPAD.Application.csproj", "{B6391DCB-B276-4D4F-B1E4-F22F8505DBF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSV", "CSV", "{DC481663-F197-49F5-9DF1-7CCDA60A147C}"
+	ProjectSection(SolutionItems) = preProject
+		centros_educativos.csv = centros_educativos.csv
+		cobertura_educativa_2024.csv = cobertura_educativa_2024.csv
+		division_territorial.csv = division_territorial.csv
+		embarazo_adolescente_2024.csv = embarazo_adolescente_2024.csv
+		indicadores_socioeconomicos_2024.csv = indicadores_socioeconomicos_2024.csv
+		matricula_desercion_2023-2024.csv = matricula_desercion_2023-2024.csv
+		pruebas_nacionales_2023-2024.csv = pruebas_nacionales_2023-2024.csv
+		recursos_centros_2023-2024.csv = recursos_centros_2023-2024.csv
+		rendimiento_academico_2023-2024.csv = rendimiento_academico_2023-2024.csv
+		servicios_basicos_2024.csv = servicios_basicos_2024.csv
+		trabajo_infantil_2024.csv = trabajo_infantil_2024.csv
+		violencia_delincuencia_2024.csv = violencia_delincuencia_2024.csv
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48FC5AD3-C6EE-4F86-951C-312E123D3213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48FC5AD3-C6EE-4F86-951C-312E123D3213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48FC5AD3-C6EE-4F86-951C-312E123D3213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48FC5AD3-C6EE-4F86-951C-312E123D3213}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB51A8AA-0C58-466A-8FF9-BDA95B04E0DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB51A8AA-0C58-466A-8FF9-BDA95B04E0DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB51A8AA-0C58-466A-8FF9-BDA95B04E0DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB51A8AA-0C58-466A-8FF9-BDA95B04E0DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1741B63E-9AB4-4327-99A0-0FA1BAD3CC68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1741B63E-9AB4-4327-99A0-0FA1BAD3CC68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1741B63E-9AB4-4327-99A0-0FA1BAD3CC68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1741B63E-9AB4-4327-99A0-0FA1BAD3CC68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAE63E9C-CB72-4AF4-9509-5C60111B8AF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAE63E9C-CB72-4AF4-9509-5C60111B8AF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAE63E9C-CB72-4AF4-9509-5C60111B8AF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAE63E9C-CB72-4AF4-9509-5C60111B8AF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6391DCB-B276-4D4F-B1E4-F22F8505DBF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6391DCB-B276-4D4F-B1E4-F22F8505DBF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6391DCB-B276-4D4F-B1E4-F22F8505DBF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6391DCB-B276-4D4F-B1E4-F22F8505DBF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CB51A8AA-0C58-466A-8FF9-BDA95B04E0DF} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{1741B63E-9AB4-4327-99A0-0FA1BAD3CC68} = {6C54B910-07F8-4E37-A13F-FB10AE75D8CB}
+		{CAE63E9C-CB72-4AF4-9509-5C60111B8AF8} = {D81821B6-8407-4DB6-A376-E245EC1041EB}
+		{B6391DCB-B276-4D4F-B1E4-F22F8505DBF3} = {6C54B910-07F8-4E37-A13F-FB10AE75D8CB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FEAB41E8-42D8-4CCF-B382-564971E635FC}
+	EndGlobalSection
+EndGlobal
