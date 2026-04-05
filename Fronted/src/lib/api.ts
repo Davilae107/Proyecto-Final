@@ -278,6 +278,21 @@ export interface CoberturaPorMunicipio {
   distanciaPromedio: number;
 }
 
+export interface AiProvinceRecommendation {
+  provincia: string;
+  region: string;
+  prioridad: string;
+  hallazgos: string[];
+  sugerencias: string[];
+}
+
+export interface AiProvinceRecommendationsResult {
+  generatedAt: string;
+  model: string;
+  provinciasAnalizadas: number;
+  recomendaciones: AiProvinceRecommendation[];
+}
+
 export const estadisticasApi = {
   // Deserción
   getDesercionPorSector: async (): Promise<{ success: boolean; data: DesercionPorSector[] }> => {
@@ -330,6 +345,17 @@ export const estadisticasApi = {
   // Cobertura
   getCobertura: async (): Promise<{ success: boolean; data: CoberturaPorMunicipio[] }> => {
     const { data } = await api.get("/Estadisticas/cobertura/por-municipio");
+    return data;
+  },
+};
+
+export const aiApi = {
+  getRecomendacionesPorProvincia: async (
+    top: number = 10
+  ): Promise<{ success: boolean; data: AiProvinceRecommendationsResult }> => {
+    const { data } = await api.get("/Ai/recomendaciones/provincias", {
+      params: { top },
+    });
     return data;
   },
 };

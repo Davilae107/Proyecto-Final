@@ -13,6 +13,7 @@ import {
   Activity,
   ChevronLeft,
   ChevronRight,
+  Brain,
 } from "lucide-react";
 import { useState } from "react";
 
@@ -31,6 +32,11 @@ const navItems = [
     label: "Pipeline ETL",
     href: "/dashboard/etl",
     icon: Database,
+  },
+  {
+    label: "Módulo IA",
+    href: "/dashboard/ia",
+    icon: Brain,
   },
   {
     label: "Rendimiento Académico",
@@ -109,7 +115,7 @@ export default function Sidebar() {
               title={collapsed ? item.label : undefined}
             >
               <item.icon
-                className={`w-5 h-5 flex-shrink-0 ${
+                className={`w-5 h-5 shrink-0 ${
                   isActive ? "text-blue-600" : "text-gray-400"
                 }`}
               />

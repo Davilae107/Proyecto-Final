@@ -4,6 +4,8 @@ using SIPAD.Application.Services;
 using SIPAD.Application.Services.ETL;
 using SIPAD.Infrastructure.Data;
 using Microsoft.AspNetCore.Http.Features;
+using SIPAD.API.Options;
+using SIPAD.API.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,7 +16,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// CORS Configuration - Modificar según el entorno del FRONT
+// CORS Configuration - Modificar segï¿½n el entorno del FRONT
 
 var allowedOrigins = builder.Configuration.GetSection("Cors:AllowedOrigins").Get<string[]>() ?? new string[] { "http://localhost:3000" };
 
@@ -25,7 +27,7 @@ builder.Services.AddCors(options =>
         policy.WithOrigins(allowedOrigins)
             .AllowAnyMethod()                 // Permite GET, POST, PUT, DELETE, etc.
             .AllowAnyHeader()                 // Permite cualquier header
-            .AllowCredentials();              // Permite cookies y autenticación
+            .AllowCredentials();              // Permite cookies y autenticaciï¿½n
     });
 });
 
@@ -57,6 +59,10 @@ builder.Services.AddScoped<PruebasNacionalesEtlService>();
 builder.Services.AddScoped<CsvValidationService>();
 
 builder.Services.AddScoped<EtlPipelineService>();
+
+builder.Services.Configure<GeminiAiOptions>(builder.Configuration.GetSection("GeminiAi"));
+builder.Services.AddHttpClient<AiRecommendationsService>();
+builder.Services.AddScoped<AiRecommendationsService>();
 
 var app = builder.Build();
 
