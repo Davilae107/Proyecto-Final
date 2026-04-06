@@ -1,9 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using SIPAD.Domain.Entities;
 
 namespace SIPAD.Infrastructure.Data;
 
-public class SipadDbContext : DbContext
+public class SipadDbContext : IdentityDbContext<ApplicationUser>
 {
     public SipadDbContext(DbContextOptions<SipadDbContext> options) : base(options)
     {

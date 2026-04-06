@@ -1,4 +1,5 @@
 import axios from "axios";
+import { clearAuthSession, getAuthToken } from "@/lib/auth";
 
 const API_BASE_URL =
   process.env.NEXT_PUBLIC_API_URL || "http://localhost:5186";
@@ -10,6 +11,64 @@ const api = axios.create({
     Accept: "application/json",
   },
 });
+
+api.interceptors.request.use((config) => {
+  const token = getAuthToken();
+  if (token) {
+    config.headers.Authorization = `Bearer ${token}`;
+  }
+  return config;
+});
+
+api.interceptors.response.use(
+  (response) => response,
+  (error) => {
+    if (typeof window !== "undefined" && error?.response?.status === 401) {
+      clearAuthSession();
+      window.location.href = "/login";
+    }
+
+    return Promise.reject(error);
+  }
+);
+
+export interface LoginRequest {
+  email: string;
+  password: string;
+}
+
+export interface RegisterRequest {
+  fullName: string;
+  email: string;
+  password: string;
+}
+
+export interface LoginResponse {
+  success: boolean;
+  data: {
+    token: string;
+    expiresAtUtc: string;
+    email: string;
+    fullName: string;
+  };
+}
+
+export interface RegisterResponse {
+  success: boolean;
+  message: string;
+}
+
+export const authApi = {
+  login: async (payload: LoginRequest): Promise<LoginResponse> => {
+    const { data } = await api.post<LoginResponse>("/Auth/login", payload);
+    return data;
+  },
+
+  register: async (payload: RegisterRequest): Promise<RegisterResponse> => {
+    const { data } = await api.post<RegisterResponse>("/Auth/register", payload);
+    return data;
+  },
+};
 
 // ═══════════════════════════════════════════
 // CSV Upload endpoints
